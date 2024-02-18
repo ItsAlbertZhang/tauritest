@@ -29,7 +29,7 @@
                 "icons/icon.icns",
                 "icons/icon.ico"
             ],
-            "identifier": "",
+            "identifier": "com.jx3calc",
             "longDescription": "",
             "macOS": {
                 "entitlements": null,
