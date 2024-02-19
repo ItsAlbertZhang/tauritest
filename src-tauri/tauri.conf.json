@@ -8,11 +8,16 @@
     },
     "package": {
         "productName": "tauritest",
-        "version": "0.1.0"
+        "version": "0.1.1"
     },
     "tauri": {
         "allowlist": {
-            "all": false
+            "all": false,
+            "app": {
+                "all": true,
+                "show": true,
+                "hide": true
+            }
         },
         "bundle": {
             "active": true,
@@ -51,7 +56,9 @@
             "csp": null
         },
         "updater": {
-            "active": false
+            "active": true,
+            "endpoints": ["https://github.com/ItsAlbertZhang/tauritest/releases/latest/latest.json"],
+            "dialog": true
         },
         "windows": [
             {
