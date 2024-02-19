@@ -10,5 +10,10 @@ export default function Home() {
         getVersion().then((v) => setVersion(v));
     }, []);
 
-    return <div>{`当前版本: ${version}`}</div>;
+    return (
+        <div>
+            <p>Hello, tauri!</p>
+            <>{`当前版本: ${version}`}</>
+        </div>
+    );
 }
