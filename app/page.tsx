@@ -13,7 +13,6 @@ export default function Home() {
     return (
         <div>
             <p>Hello, tauri!</p>
-            <p>Hello, 0.1.8!</p>
             <>{`当前版本: ${version}`}</>
         </div>
     );
