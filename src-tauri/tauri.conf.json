@@ -8,7 +8,7 @@
     },
     "package": {
         "productName": "tauritest",
-        "version": "0.1.10"
+        "version": "0.1.11"
     },
     "tauri": {
         "allowlist": {
@@ -60,7 +60,7 @@
         },
         "updater": {
             "active": true,
-            "endpoints": ["https://gitee.com/ItsAlbertZhang/tauritest/releases/download/latest.json"],
+            "endpoints": ["https://gitee.com/itsalbertzhang/tauritest/raw/master/update.json"],
             "dialog": true,
             "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEUzRDhEMTY0MzBGOUY1QzAKUldUQTlma3daTkhZNHhzcCsyNXhYN1lzTjM2Y0tOd3RuVGNyT3hsZXR1dUNKZS9CdW9SYStDOVgK"
         },
